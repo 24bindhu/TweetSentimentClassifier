@@ -15,6 +15,13 @@ This project classifies tweets as **Positive**, **Negative**, or **Neutral** usi
 - `train.csv` — Labeled tweet dataset for model training.
 - `twitter.csv` — Unlabeled tweets used for real-time sentiment prediction.
 
+  
+- The dataset should have the following columns:  
+- `id`: unique identifier for each tweet  
+- `label`: target class (e.g., 0 or 1)  
+- `tweet`: original tweet text  
+- `clean_tweet`: cleaned/preprocessed tweet text  
+
 ## ⚙️ Features
 
 - Tweet preprocessing: handle removal, punctuation cleanup, short word filtering.
